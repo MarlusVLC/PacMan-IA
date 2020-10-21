@@ -24,7 +24,8 @@ public class State {
   List<Move> previousGhostMoves;
   
   State parent;
-  
+
+
   public Location getPacManLocation() {
     return pacManLocation;
   }

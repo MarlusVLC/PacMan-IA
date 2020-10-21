@@ -1,0 +1,27 @@
+game.
+getGhostPlayers <retorna uma lista de ghostPlayers>
+getAllLocations <retirna um Set<Locations>
+isValidLocation
+getCurrentState <retorna um estado global>
+isInGhostPen
+getLegalPacManMoves
+getLegalGhostMoves
+Set<List<Move>> getLegalCombinedGhostMoves
+getLegalCombineGhostMovesHelper
+getNextLocation
+getNextState(3 métodos diferentes)
+getPossibleGhostProjections
+
+
+
+game.getLives();
+game.getLevel();
+game.getPoints();
+game.getTime();
+game.getCurrentState();
+state,getDotLocations().size() //Quandos pontos ainda existem
+location.euclideanDistance(loc a, loc b);
+location.manhattanDistance(loc a, loc b);
+location.euclideanDistanceToClosest(loc, Collection<Location> c);
+
+PacManPlayer: Move  choosemove(Game game) //Retorna o movimento do PacMan

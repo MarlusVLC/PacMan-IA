@@ -31,4 +31,9 @@ public class StalkingGhostPlayer extends GhostPlayer {
     return moves.get(moveIndex);
   }
 
+  @Override
+  public Move update(Game game, int ghostIndex) {
+    return chooseMove(game, ghostIndex);
+  }
+
 }

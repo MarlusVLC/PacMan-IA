@@ -4,10 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import pacman.Game;
-import pacman.State;
-import pacman.GhostPlayer;
-import pacman.Move;
+import pacman.*;
 import util.Pair;
 
 public class RandomGhostPlayer extends GhostPlayer {
@@ -35,8 +32,13 @@ public class RandomGhostPlayer extends GhostPlayer {
 		} catch(RuntimeException re) {}
 		return null;
 	}
-  
-  public List<Pair<Move, Double>> getMoveDistribution(Game game, State state, int ghostIndex) {
+
+	@Override
+	public Move chooseMove(Game game, int ghostIndex, Location target) {
+		return null;
+	}
+
+	public List<Pair<Move, Double>> getMoveDistribution(Game game, State state, int ghostIndex) {
 		List<Pair<Move, Double>> distribution = new ArrayList<Pair<Move, Double>>();
 		List<Move> legalMoves = Game.getLegalGhostMoves(state, ghostIndex);
 		double uniformProb = 1.0 / (double)legalMoves.size();
@@ -45,4 +47,9 @@ public class RandomGhostPlayer extends GhostPlayer {
 		}
 		return distribution;
   }
+
+	@Override
+	public Move update(Game game, int ghostIndex) {
+		return chooseMove(game, ghostIndex);
+	}
 }

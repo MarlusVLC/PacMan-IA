@@ -49,9 +49,10 @@ public class BasicGhostPlayer extends GhostPlayer {
     lastMove = bestMove;
     return bestMove;
   }
-  
+
   private Location getTarget(State s, int ghostIndex) {
     int step = s.getHistory().size()-1;
+//    int step = 4;
     int numGhosts = s.getGhostLocations().size();
     if (step%periodLength==(ghostIndex*(periodLength/numGhosts))) { // this makes ghosts change behavior at different points in the period
       // pick a new target
@@ -74,5 +75,15 @@ public class BasicGhostPlayer extends GhostPlayer {
     if (target!=null) return target;
     return s.getPacManLocation();
   }
-  
+
+
+  @Override
+  public Move chooseMove(Game game, int ghostIndex, Location target) {
+    return null;
+  }
+
+  @Override
+  public Move update(Game game, int ghostIndex) {
+    return chooseMove(game, ghostIndex);
+  }
 }

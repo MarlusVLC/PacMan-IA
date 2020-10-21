@@ -753,7 +753,8 @@ public class Game {
       List<Move> ghostMoves = new ArrayList<Move>();
       for (int i = 0; i < ghostPlayers.size(); i++) {
         GhostPlayer player = ghostPlayers.get(i);
-        Move move = player.chooseMove(this, i);
+        //Linhs modificada pra incluir os estados
+        Move move = player.update(this, i); //Usa o update da máquina de estados
         ghostMoves.add(move);
       }
       // actually do the move
@@ -861,7 +862,12 @@ public class Game {
    * @param args
    * @throws ClassNotFoundException
    */
+
+
   public static void main(String[] args) throws ClassNotFoundException {
+    System.out.println(getAllLocationsCopy());
+
+
     Map<String, Object> argMap = Utils.parseCommandLineArguments(args, true);
     // choose display
     // text is default
