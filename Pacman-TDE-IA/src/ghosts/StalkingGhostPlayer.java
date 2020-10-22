@@ -32,6 +32,11 @@ public class StalkingGhostPlayer extends GhostPlayer {
   }
 
   @Override
+  public Move chooseMove(Game game, int ghostIndex, Location target) {
+    return null;
+  }
+
+  @Override
   public Move update(Game game, int ghostIndex) {
     return chooseMove(game, ghostIndex);
   }

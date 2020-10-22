@@ -26,7 +26,7 @@ public abstract class GhostPlayer { //EQUIVALENTE À ENTIDADE
    */
   public List<Pair<Move, Double>> getMoveDistribution(Game game, State state, int ghostIndex) {
   		List<Pair<Move, Double>> distribution = new ArrayList<Pair<Move, Double>>();
-  		Move choice = chooseMove(game, ghostIndex, );
+  		Move choice = chooseMove(game, ghostIndex, state.getPacManLocation());
   		for(Move move : Game.getLegalGhostMoves(state, ghostIndex)) {
   			if(move.equals(choice)) {
   				distribution.add(new Pair<Move, Double>(move, 1.0));
@@ -36,6 +36,8 @@ public abstract class GhostPlayer { //EQUIVALENTE À ENTIDADE
   		}
   		return distribution;
   }
+
+
 
 //public boolean handleMessage(Message msg) {
 //      return stateMachine.handleMesage(msg);

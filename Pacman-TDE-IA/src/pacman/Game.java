@@ -398,8 +398,8 @@ public class Game {
       legalMoves.remove(pacManMove.getOpposite());
       length++;
     }
-    // System.err.println(s.getPacManLocation() + " was projected to " +
-    // projectedStates.get(projectedStates.size()-1).getPacManLocation());
+     System.err.println(s.getPacManLocation() + " was projected to " +
+     projectedStates.get(projectedStates.size()-1).getPacManLocation());
     return projectedStates;
   }
 
@@ -865,7 +865,6 @@ public class Game {
 
 
   public static void main(String[] args) throws ClassNotFoundException {
-    System.out.println(getAllLocationsCopy());
 
 
     Map<String, Object> argMap = Utils.parseCommandLineArguments(args, true);

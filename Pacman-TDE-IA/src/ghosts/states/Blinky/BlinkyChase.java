@@ -1,6 +1,7 @@
-package ghosts.states;
+package ghosts.states.Blinky;
 
 import ghosts.Blinky;
+import ghosts.states.GhostState;
 import pacman.Game;
 import pacman.Move;
 import pacman.State;
@@ -28,10 +29,11 @@ public class BlinkyChase implements GhostState<Blinky> {
 
     @Override
     public Move execute(Blinky blinky, Game game, int ghostIndex) {
-        //Transição de estados baseada na quantidade de ponto
-        // coletados
-        State s = game.getCurrentState();
+        if (blinky.canChangeState(game)) {
+            blinky.getStateMachine().changeState(BlinkyScatter.getInstance());
+        }
 
+        State s = game.getCurrentState();
         return blinky.chooseMove(game, ghostIndex, s.getPacManLocation());
     }
 

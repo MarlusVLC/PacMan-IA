@@ -52,6 +52,9 @@ public class StateMachine <Ghost> {
         //Invoca o método de saída do estado atual
         currentState.exit(myOwner);
 
+        //Faz a troca de estados
+        currentState = newState;
+
         //Invoca o método do entrada do novo estado
         currentState.enter(myOwner);
     }

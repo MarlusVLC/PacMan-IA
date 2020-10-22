@@ -6,7 +6,7 @@ import pacman.*;
 
 import java.util.List;
 
-public class Blinky extends GhostPlayer {
+public class Trappy extends GhostPlayer {
 
     private static int periodLength = 20;
     private static int numPeriodTypes = 1;
@@ -16,9 +16,9 @@ public class Blinky extends GhostPlayer {
 
 
 
-    public Blinky(){
+    public Trappy(){
         //Instância a máquina de estados
-        this.stateMachine = new StateMachine<Blinky>(this);
+        this.stateMachine = new StateMachine<Trappy>(this);
 
         //Seta o estado inicial:
         stateMachine.setCurrentState(BlinkyScatter.getInstance());
@@ -27,7 +27,7 @@ public class Blinky extends GhostPlayer {
 //        stateMachine.setGlobalState();
     }
 
-    public StateMachine<Blinky> getStateMachine() { return this.stateMachine; }
+    public StateMachine<Trappy> getStateMachine() { return this.stateMachine; }
 
     @Override
     public Move chooseMove(Game game, int ghostIndex, Location target) {
@@ -52,6 +52,10 @@ public class Blinky extends GhostPlayer {
         }
 
 
+    //Retorna uma posição quatro blocos à frente do PacMan, relativo à posição à qual o PacMan está virado.
+//    private Location getTarget(State s, int ghostIndex, Game game) {
+//        onwardPacManMoveSet = game.getProjectedStates(s, game.ge )
+//    }
 
     //Define a condição de transição do estado Chase para Scatter  vice-versa
     public boolean canChangeState(Game game){
