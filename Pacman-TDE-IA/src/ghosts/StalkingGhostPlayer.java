@@ -28,6 +28,7 @@ public class StalkingGhostPlayer extends GhostPlayer {
       distances[i] = Location.euclideanDistance(pacManLoc, newLoc);
     }
     int moveIndex = Utils.argmin(distances); // the move that minimizes the distance to PacMan
+
     return moves.get(moveIndex);
   }
 

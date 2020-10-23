@@ -17,6 +17,7 @@ public abstract class GhostPlayer { //EQUIVALENTE À ENTIDADE
   private Color color = Color.PINK;
   private String name =  "";
   protected StateMachine stateMachine;
+  protected Move lastMove = null;
 
   //Pertinente ao personagem EXCLUSIVO
   public abstract Move chooseMove(Game game, int ghostIndex, Location target);
@@ -43,8 +44,14 @@ public abstract class GhostPlayer { //EQUIVALENTE À ENTIDADE
 //      return stateMachine.handleMesage(msg);
 //}
 
+
+
   public Color getColor() {
 	  return color;
+  }
+
+  public Move goBackwards(){
+      return lastMove.getOpposite();
   }
 
   public void setColor(Color color) {

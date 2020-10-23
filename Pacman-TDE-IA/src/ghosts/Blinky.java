@@ -12,8 +12,6 @@ public class Blinky extends GhostPlayer {
     private static int numPeriodTypes = 1;
 
     private Location target = null;
-    private Move lastMove = null;
-
 
 
     public Blinky(){

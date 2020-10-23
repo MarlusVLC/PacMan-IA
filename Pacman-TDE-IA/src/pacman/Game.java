@@ -54,6 +54,8 @@ public class Game {
 
   private Move pacManMove;
 
+  private Move lastPacManMove;
+
   private int lives;
 
   private int level;
@@ -61,6 +63,14 @@ public class Game {
   private int points;
 
   private int time;
+
+  public void setLastPacManMove(Move lastMove){
+    lastPacManMove = lastMove;
+  }
+
+  public Move getLastPacManMove(){
+    return lastPacManMove;
+  }
 
   public int getLives() {
     return lives;
@@ -941,13 +951,13 @@ public class Game {
             color = Color.RED;
             break;
           case 1:
-            color = Color.PINK;
+            color = Color.GREEN;
             break;
           case 2:
-            color = Color.CYAN;
+            color = Color.GRAY;
             break;
           case 3:
-            color = Color.ORANGE;
+            color = Color.YELLOW;
             break;
           case 4:
             color = Color.MAGENTA;

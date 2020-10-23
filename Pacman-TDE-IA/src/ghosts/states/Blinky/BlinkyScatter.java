@@ -33,6 +33,7 @@ public class BlinkyScatter implements GhostState<Blinky> {
     public Move execute(Blinky blinky, Game game, int ghostIndex) {
        if (blinky.canChangeState(game)) {
            blinky.getStateMachine().changeState(BlinkyChase.getInstance());
+           return blinky.goBackwards();
        }
         return blinky.chooseMove(game, ghostIndex, new Location(0,0));
     }

@@ -50,6 +50,10 @@ public class BasicGhostPlayer extends GhostPlayer {
     return bestMove;
   }
 
+  public Move goBackwards(){
+    return lastMove.getOpposite();
+  }
+
   private Location getTarget(State s, int ghostIndex) {
     int step = s.getHistory().size()-1;
 //    int step = 4;
