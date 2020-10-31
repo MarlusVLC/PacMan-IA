@@ -11,7 +11,11 @@ import util.*;
 
 
 public class StalkingGhostPlayer extends GhostPlayer {
-  
+
+  public StalkingGhostPlayer() {
+    super("Stalker");
+  }
+
   /**
    * Chooses a move deterministically based on the last State in the history.
    * Tries to come after Pac-Man, using straightline distance.

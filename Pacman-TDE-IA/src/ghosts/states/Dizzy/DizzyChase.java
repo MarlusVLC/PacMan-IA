@@ -1,9 +1,12 @@
 package ghosts.states.Dizzy;
 
+import ghosts.Communication.Message;
+import ghosts.Communication.MessageDispatcher;
 import ghosts.Dizzy;
 import ghosts.states.Blinky.BlinkyScatter;
 import ghosts.states.GhostState;
 import pacman.Game;
+import pacman.GhostManager;
 import pacman.Move;
 import pacman.State;
 
@@ -25,11 +28,13 @@ public class DizzyChase implements GhostState<Dizzy> {
 
     @Override
     public void enter(Dizzy dizzy) {
-
+        //Avisa o Wammy que começou a Perseguir
+        MessageDispatcher.getInstance().dispatchMessage(dizzy, GhostManager.getInstance().getGhost("Wammy"), "Dizzy is Chasing", null);
     }
 
     @Override
     public Move execute(Dizzy dizzy, Game game, int ghostIndex) {
+        System.out.println("dizzy is chasing");
         if (dizzy.canChangeToScatter(game, ghostIndex)) {
             dizzy.getStateMachine().changeState(DizzyScatter.getInstance());
             return dizzy.goBackwards();
@@ -42,5 +47,10 @@ public class DizzyChase implements GhostState<Dizzy> {
     @Override
     public void exit(Dizzy dizzy) {
 
+    }
+
+    @Override
+    public boolean onMessage(Dizzy dizzy, Message msg) {
+        return false;
     }
 }

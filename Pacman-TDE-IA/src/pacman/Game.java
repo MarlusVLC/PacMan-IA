@@ -469,7 +469,7 @@ public class Game {
     return nextState;
   }
 
-  // eat the dot at that location
+//  // eat the dot at that location
   public static boolean eatDot(LocationSet dotLocations, Location pacManLocation) {
     if (dotLocations.contains(pacManLocation)) {
       dotLocations.remove(pacManLocation);
@@ -477,6 +477,9 @@ public class Game {
     } else
       return false;
   }
+
+  // eat the dot at that location
+
 
   public static Set<Location> makeAllLocations() {
     Set<Location> allLocations = new HashSet<Location>();
@@ -813,6 +816,7 @@ public class Game {
                              null); // no parent, since it's the initial state
     if (eatDot(currentState.getDotLocations(), currentState.getPacManLocation()))
       points += dotPointsValue;
+//      System.out.println(points);
     while (lives > 0) {
       playOneBoardOneLife(pacMan);
       if (isWinning(currentState)) {

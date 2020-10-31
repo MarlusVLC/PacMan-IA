@@ -17,7 +17,11 @@ public class RandomGhostPlayer extends GhostPlayer {
   // private Random random = new Random(long seed);
   private Random random = new Random();
 
-  public Move chooseMove(Game game, int ghostIndex) {
+	public RandomGhostPlayer() {
+		super("Random");
+	}
+
+	public Move chooseMove(Game game, int ghostIndex) {
 		List<Pair<Move, Double>> distribution = getMoveDistribution(game, game.getCurrentState(), ghostIndex);
 		double dart = random.nextDouble();
 		double sum = 0.0;

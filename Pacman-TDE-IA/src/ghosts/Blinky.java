@@ -15,6 +15,8 @@ public class Blinky extends GhostPlayer {
 
 
     public Blinky(){
+        super("Blinky");
+
         //Instância a máquina de estados
         this.stateMachine = new StateMachine<Blinky>(this);
 

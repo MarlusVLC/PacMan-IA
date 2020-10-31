@@ -1,6 +1,7 @@
 package ghosts.states.Blinky;
 
 import ghosts.Blinky;
+import ghosts.Communication.Message;
 import ghosts.states.GhostState;
 import pacman.Game;
 import pacman.Location;
@@ -35,11 +36,17 @@ public class BlinkyScatter implements GhostState<Blinky> {
            blinky.getStateMachine().changeState(BlinkyChase.getInstance());
            return blinky.goBackwards();
        }
+       //Se não estiver na hora. Blinky objetiva ir até o canto inferior esquerdo do mapa.
         return blinky.chooseMove(game, ghostIndex, new Location(0,0));
     }
 
     @Override
     public void exit(Blinky blinky) {
 
+    }
+
+    @Override
+    public boolean onMessage(Blinky blinky, Message msg) {
+        return false;
     }
 }

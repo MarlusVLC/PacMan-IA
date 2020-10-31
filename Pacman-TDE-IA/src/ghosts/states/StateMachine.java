@@ -1,5 +1,6 @@
 package ghosts.states;
 
+import ghosts.Communication.Message;
 import pacman.Game;
 import pacman.Move;
 
@@ -65,21 +66,21 @@ public class StateMachine <Ghost> {
         changeState(previousState);
     }
 
-//    public boolean handleMessage(Message msg){
-//        //Verifica se o estado atual é capaz de lidar com a mensagem recebida:
-//        if (currentState.onMessage(myOwner, msg)){
-//            return true
-//        }
-//
-//        //Se o estado atual não souber lidar com a mensagem, verifica
-//        // se existe um estado global e ele sabe lidar com a mensagem:
-//        if (globalState != null && globalState.onMessage(myOwner, msg)){
-//            return true;
-//        }
-//
-//        //Do contrário, retorne falso
-//        return false;
-//    }
+    public boolean handleMessage(Message msg){
+        //Verifica se o estado atual é capaz de lidar com a mensagem recebida:
+        if (currentState.onMessage(myOwner, msg)){
+            return true;
+        }
+
+        //Se o estado atual não souber lidar com a mensagem, verifica
+        // se existe um estado global e ele sabe lidar com a mensagem:
+        if (globalState != null && globalState.onMessage(myOwner, msg)){
+            return true;
+        }
+
+        //Do contrário, retorne falso
+        return false;
+    }
 
     public GhostState<Ghost> getCurrentState() {
         return currentState;

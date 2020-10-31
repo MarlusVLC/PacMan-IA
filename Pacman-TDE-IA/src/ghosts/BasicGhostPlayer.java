@@ -23,13 +23,17 @@ import pacman.State;
  * @author grenager
  */
 public class BasicGhostPlayer extends GhostPlayer {
-  
+
   private static int periodLength = 40;
   private static int numPeriodTypes = 10;
   
   private Location target = null; // if null, then it's pacman himself
   private Move lastMove = null;
-  
+
+  public BasicGhostPlayer() {
+    super("Basic");
+  }
+
   public Move chooseMove(Game game, int ghostIndex) {
     State s = game.getCurrentState();
     Location target = getTarget(s, ghostIndex);

@@ -1,6 +1,7 @@
 package ghosts.states.Blinky;
 
 import ghosts.Blinky;
+import ghosts.Communication.Message;
 import ghosts.states.GhostState;
 import pacman.Game;
 import pacman.Move;
@@ -41,5 +42,10 @@ public class BlinkyChase implements GhostState<Blinky> {
     @Override
     public void exit(Blinky blinky) {
 
+    }
+
+    @Override
+    public boolean onMessage(Blinky blinky, Message msg) {
+        return false;
     }
 }

@@ -1,5 +1,6 @@
 package ghosts.states;
 
+import ghosts.Communication.Message;
 import pacman.Game;
 import pacman.Move;
 
@@ -10,5 +11,5 @@ public interface GhostState <Ghost> {
 
     public void exit (Ghost ghost);
 
-//    boolean onMessage(Ghost ghost, Message msg);
+    boolean onMessage(Ghost ghost, Message msg);
 }

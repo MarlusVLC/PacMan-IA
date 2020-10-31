@@ -20,6 +20,9 @@ public class Dizzy extends GhostPlayer {
 
 
     public Dizzy(){
+        super("Dizzy");
+
+
         //Instância a máquina de estados
         this.stateMachine = new StateMachine<Dizzy>(this);
 
@@ -69,16 +72,25 @@ public class Dizzy extends GhostPlayer {
     public void dotCounter(Game game) {
         //Confirma se o estado atual é Chase. Se for, começa a contar
         if (stateMachine.getCurrentState() == DizzyScatter.getInstance()) {
-            //Confere se 5 seg se passaram desde a transicão de estado.
+            //Confere se a quantidade de pontos coletados é igual ao limite.
+            //Se for, adiciona um ponto ao contador.
             State s = game.getCurrentState();
-            if(game.eatDot(s.getDotLocations(), s.getPacManLocation())){
+//            System.out.println(s.getDotLocations().contains(s.getPacManLocation()));
+//            System.out.println(s.getDotLocations());
+//            System.out.println(s.getPacManLocation());
+//            if(game.eatDot(s.getDotLocations(), s.getPacManLocation())){
+            if (s.getDotLocations().contains(s.getPacManLocation())){
                 dotsEaten++;
+//                System.out.println(dotsEaten);
             }
         }
     }
 
     public boolean canChangeToChase(Game game){
-        if (dotsEaten >= dotsLimit){
+        //Checa se o contador alcançou o limite. Se o tiver, o fantasma pode
+        //mudar de estado para Chase.
+//        if (dotsEaten >= dotsLimit){
+        if ((game.getPoints()%500)==0){
             dotsEaten = 0;
             return true;
         }
@@ -86,6 +98,7 @@ public class Dizzy extends GhostPlayer {
     }
 
     public Location runFromPacMan(Game game){
+        //O fantasma sempre vai pro quadrante oposto ao qual o PacMan está localizado.
         Location PacManLoc = game.getCurrentState().getPacManLocation();
         int halfMapX = Math.floorDiv(game.xDim,2);
         int halfMapY = Math.floorDiv(game.yDim, 2);

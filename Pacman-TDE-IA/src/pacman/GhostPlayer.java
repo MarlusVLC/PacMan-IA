@@ -4,6 +4,7 @@ import java.awt.Color;
 import java.util.List;
 import java.util.ArrayList;
 
+import ghosts.Communication.Message;
 import ghosts.states.StateMachine;
 import util.Pair;
 
@@ -14,10 +15,26 @@ import util.Pair;
  */
 public abstract class GhostPlayer { //EQUIVALENTE À ENTIDADE
 
-  private Color color = Color.PINK;
-  private String name =  "";
+
+
+
+
+  protected Color color = Color.PINK;
+  protected String name =  "";
   protected StateMachine stateMachine;
   protected Move lastMove = null;
+
+
+  public GhostPlayer(String name) {
+      this.name = name;
+
+      //Faz o registro no ghostManager:
+      GhostManager.getInstance().registerGhost(this);
+       System.out.println(name + "Registered");
+  }
+
+
+
 
   //Pertinente ao personagem EXCLUSIVO
   public abstract Move chooseMove(Game game, int ghostIndex, Location target);
@@ -40,19 +57,20 @@ public abstract class GhostPlayer { //EQUIVALENTE À ENTIDADE
 
 
 
-//public boolean handleMessage(Message msg) {
-//      return stateMachine.handleMesage(msg);
-//}
+public boolean handleMessage(Message msg) {
+      return stateMachine.handleMessage(msg);
+}
 
 
 
-  public Color getColor() {
-	  return color;
-  }
 
   public Move goBackwards(){
       return lastMove.getOpposite();
   }
+
+  public Color getColor() {
+        return color;
+    }
 
   public void setColor(Color color) {
 	  this.color = color;
