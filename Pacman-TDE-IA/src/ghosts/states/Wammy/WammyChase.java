@@ -36,7 +36,7 @@ public class WammyChase implements GhostState<Wammy> {
     @Override
     public Move execute(Wammy wammy, Game game, int ghostIndex) {
 
-        System.out.println("wammy is chasing");
+//        System.out.println("wammy is chasing");
 
         if (wammy.canReturn()) { return wammy.goBackwards(); }
 

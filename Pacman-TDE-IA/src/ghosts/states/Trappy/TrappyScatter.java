@@ -30,7 +30,7 @@ public class TrappyScatter implements GhostState<Trappy> {
 
     @Override
     public Move execute(Trappy trappy, Game game, int ghostIndex) {
-        System.out.println("Trappy's runnin");
+//        System.out.println("Trappy's runnin");
 
 
         if (trappy.canReturn()) { return trappy.goBackwards(); }
@@ -41,7 +41,7 @@ public class TrappyScatter implements GhostState<Trappy> {
         }
 
         State s = game.getCurrentState();
-        return trappy.chooseMove(game, ghostIndex, trappy.CrossTheBoard());
+        return trappy.chooseMove(game, ghostIndex, trappy.runFromPacMan());
     }
 
     @Override

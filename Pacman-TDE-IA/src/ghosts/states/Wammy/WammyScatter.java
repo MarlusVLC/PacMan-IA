@@ -36,7 +36,7 @@ public class WammyScatter implements GhostState<Wammy> {
 
         if (wammy.canReturn()) { return wammy.goBackwards(); }
 
-        System.out.println("wammy is scattering");
+//        System.out.println("wammy is scattering");
         State s = game.getCurrentState();
         return wammy.chooseMove(game, ghostIndex, wammy.runFromPacMan(game));
     }

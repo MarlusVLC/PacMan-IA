@@ -10,8 +10,8 @@ import java.util.List;
 public class Wammy extends GhostPlayer {
 
     private static int transRadius = 3;
-    private static int dotsEaten = 0;
-    private static int dotsLimit = 10;
+//    private static int dotsEaten = 0;
+//    private static int dotsLimit = 10;
 
     private Location target = null;
 //    private Move lastMove = null;
@@ -72,7 +72,7 @@ public class Wammy extends GhostPlayer {
         //mudar de estado para Chase.
 //        if (dotsEaten >= dotsLimit){
         if ((game.getPoints()%500)==0){
-            dotsEaten = 0;
+//            dotsEaten = 0;
             return true;
         }
         return false;

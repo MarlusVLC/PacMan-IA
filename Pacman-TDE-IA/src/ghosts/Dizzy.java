@@ -13,7 +13,7 @@ public class Dizzy extends GhostPlayer {
     private static int transRadius = 3;
 //    private static int dotsEaten = 0;
 //    private static int dotsLimit = 10;
-    private static int pointsLimit = 2;
+    private static int pointsLimit = 400;
 
     private Location target = null;
 //    private Move lastMove = null;

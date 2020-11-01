@@ -1,4 +1,4 @@
-package ghosts;
+package ghosts.DefaultGhosts;
 
 import java.util.List;
 

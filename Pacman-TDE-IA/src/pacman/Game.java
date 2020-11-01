@@ -1,6 +1,6 @@
 package pacman;
 
-import ghosts.BasicGhostPlayer;
+import ghosts.DefaultGhosts.BasicGhostPlayer;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -12,7 +12,6 @@ import java.util.Set;
 
 import java.awt.Color;
 
-import util.Pair;
 import util.Utils;
 
 /**
@@ -771,7 +770,7 @@ public class Game {
       for (int i = 0; i < ghostPlayers.size(); i++) {
         GhostPlayer player = ghostPlayers.get(i);
         //Linhs modificada pra incluir os estados
-        Move move = player.update(this, i); //Usa o update da máquina de estados
+        Move move = player.update(this, i); //Usa o update da máquina de estados. EDITADO POR MARLUS.
         ghostMoves.add(move);
       }
       // actually do the move
@@ -923,16 +922,17 @@ public class Game {
         Color color = Color.LIGHT_GRAY;
         switch (ghostIndex % 7) {
           case 0:
-            color = Color.RED;
+//            color = Color.RED;
+            color = Color.RED; //Blinky
             break;
           case 1:
-            color = Color.PINK;
+            color = Color.GREEN;  //Trappy
             break;
           case 2:
-            color = Color.CYAN;
+            color = Color.GRAY; //Dizzy
             break;
           case 3:
-            color = Color.ORANGE;
+            color = Color.YELLOW; //Wammy
             break;
           case 4:
             color = Color.MAGENTA;

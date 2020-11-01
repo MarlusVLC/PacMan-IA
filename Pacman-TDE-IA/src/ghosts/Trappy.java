@@ -10,7 +10,7 @@ import java.util.List;
 public class Trappy extends GhostPlayer {
 
     private static int periodLength = 20;
-    private static int numPeriodTypes = 1;
+//    private static int numPeriodTypes = 1;
     private static int projectedTile = 4; //Quantidade de blocos à frente do PacMan a ser coletado como alvo
 
     private Location target = null;
@@ -32,8 +32,8 @@ public class Trappy extends GhostPlayer {
 
     @Override
     public Move chooseMove(Game game, int ghostIndex, Location target) {
-        System.out.println(target);
-        System.out.println(game.getLastPacManMove());
+//        System.out.println("<Trappy>: Alvo atual" + target);
+//        System.out.println("<Trappy>: Último movimento do PacMan " + game.getLastPacManMove());
         State s = game.getCurrentState();
 //        Location target = s.getPacManLocation();
         Location oldLoc = s.getGhostLocations().get(ghostIndex);
@@ -57,7 +57,7 @@ public class Trappy extends GhostPlayer {
 
     //Retorna uma posição quatro blocos à frente do PacMan, relativo à posição à qual o PacMan está virado.
     public Location getProjectedTarget(State s, Game game) {
-        System.out.println("<Trappy> ULTIMO MOVIMENTO DO PAC-MAN: " + game.getLastPacManMove());
+//        System.out.println("<Trappy> ULTIMO MOVIMENTO DO PAC-MAN: " + game.getLastPacManMove());
 
         if (game.getLastPacManMove() != null && game.getLastPacManMove() != Move.NONE) {
 
@@ -69,8 +69,8 @@ public class Trappy extends GhostPlayer {
             if (onwardPacManMoveSet == null){
                 return s.getPacManLocation();
             }
-            else if (onwardPacManMoveSet.size() >= 4) {
-                pacManProjectedLoc = onwardPacManMoveSet.get(3).getPacManLocation();
+            else if (onwardPacManMoveSet.size() >= projectedTile) {
+                pacManProjectedLoc = onwardPacManMoveSet.get(projectedTile-1).getPacManLocation();
             } else {
                 pacManProjectedLoc = onwardPacManMoveSet.get(onwardPacManMoveSet.size() - 1).getPacManLocation();
             }
@@ -81,7 +81,7 @@ public class Trappy extends GhostPlayer {
 
     //Trafega pelos cantos do mapa na seguinte ordem:
     //Superior direito, inferior esquerdo, inferior direito, superior esquerdo
-    public Location CrossTheBoard(){
+    public Location runFromPacMan(){
         return new Location(0,0);
     }
 

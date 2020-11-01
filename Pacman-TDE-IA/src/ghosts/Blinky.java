@@ -59,11 +59,11 @@ public class Blinky extends GhostPlayer {
         //Checa se um limite tempo espcífico após a última transição foi atingido.
         //O tempo de transicao aumenta conforme o tempo passa
         //periodLength = Tempo limite pra transição
-        return  (game.getTime()%periodLength+Math.floorDiv(periodLength,protelator) == 0);
+        return  (game.getTime()%periodLength+Math.floorDiv(game.getTime(),protelator) == 0);
     }
 
     public boolean canChangeToScatter(Game game){
-        return (game.getTime()%periodLength-Math.floorDiv(periodLength, protelator) == 0);
+        return (game.getTime()%periodLength-Math.floorDiv(game.getTime(), protelator) == 0);
     }
 
         @Override

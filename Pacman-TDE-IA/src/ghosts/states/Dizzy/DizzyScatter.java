@@ -38,7 +38,7 @@ public class DizzyScatter implements GhostState<Dizzy> {
 
     @Override
     public Move execute(Dizzy dizzy, Game game, int ghostIndex) {
-        System.out.println("dizzy is scattering");
+//        System.out.println("dizzy is scattering");
 
         if (dizzy.canReturn()) { return dizzy.goBackwards(); }
 

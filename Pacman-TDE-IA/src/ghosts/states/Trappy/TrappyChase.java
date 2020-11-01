@@ -30,7 +30,7 @@ public class TrappyChase implements GhostState<Trappy> {
 
     @Override
     public Move execute(Trappy trappy, Game game, int ghostIndex) {
-        System.out.println("Trappy's chasin");
+//        System.out.println("Trappy's chasin");
 
         if (trappy.canReturn()) { return trappy.goBackwards(); }
 

@@ -27,7 +27,7 @@ public abstract class GhostPlayer { //EQUIVALENTE À ENTIDADE
 
 
   public GhostPlayer(String name) {
-      this.name = name;
+          this.name = name;
 
       //Faz o registro no ghostManager:
       GhostManager.getInstance().registerGhost(this);
