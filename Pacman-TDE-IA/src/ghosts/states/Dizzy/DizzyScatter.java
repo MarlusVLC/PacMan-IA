@@ -28,18 +28,24 @@ public class DizzyScatter implements GhostState<Dizzy> {
 
     @Override
     public void enter(Dizzy dizzy) {
-        MessageDispatcher.getInstance().dispatchMessage(dizzy, GhostManager.getInstance().getGhost("Wammy"), "Dizzy is Scattering", null);
-
+        try {
+            MessageDispatcher.getInstance().dispatchMessage(dizzy, GhostManager.getInstance().getGhost("Wammy"), "Dizzy is Scattering", null);
+        }
+        catch (Exception e){
+            throw new RuntimeException("<DizzyScatter> Mensagem não pode ser lida");
+        }
     }
 
     @Override
     public Move execute(Dizzy dizzy, Game game, int ghostIndex) {
         System.out.println("dizzy is scattering");
-        dizzy.dotCounter(game);
+
+        if (dizzy.canReturn()) { return dizzy.goBackwards(); }
+
+//        dizzy.dotCounter(game);
 //        System.out.println(dizzy.canChangeToChase(game));
         if (dizzy.canChangeToChase(game)) {
             dizzy.getStateMachine().changeState(DizzyChase.getInstance());
-            return dizzy.goBackwards();
         }
 
         State s = game.getCurrentState();

@@ -23,13 +23,19 @@ public class WammyScatter implements GhostState<Wammy> {
     //SINGLETON end
 
 
+    boolean hasReturned = false; //Variável que diz se o o fantasma fez o movimento de retorno
+
+
     @Override
     public void enter(Wammy wammy) {
-
+        hasReturned = false;
     }
 
     @Override
     public Move execute(Wammy wammy, Game game, int ghostIndex) {
+
+        if (wammy.canReturn()) { return wammy.goBackwards(); }
+
         System.out.println("wammy is scattering");
         State s = game.getCurrentState();
         return wammy.chooseMove(game, ghostIndex, wammy.runFromPacMan(game));

@@ -23,6 +23,7 @@ public abstract class GhostPlayer { //EQUIVALENTE À ENTIDADE
   protected String name =  "";
   protected StateMachine stateMachine;
   protected Move lastMove = null;
+  protected boolean hasReturned = false;
 
 
   public GhostPlayer(String name) {
@@ -67,6 +68,23 @@ public boolean handleMessage(Message msg) {
   public Move goBackwards(){
       return lastMove.getOpposite();
   }
+
+  public Move getLastMove(){
+      return lastMove;
+  }
+
+    public boolean canReturn(){
+        //Confere se já fez o movimento de volta. Se não, ele se torna verdade (mesmo que não tenha executado o movimento)
+        if (!hasReturned) {
+            hasReturned = true;
+            //Se tiver feito um movimento anterior, retorne. Feito para para não problemas quando o jogo começa
+            //e o fantasma não tem nenhum movimento anterior.
+            if (getLastMove() != null) {
+                return true;
+            }
+        }
+        return false;
+    }
 
   public Color getColor() {
         return color;

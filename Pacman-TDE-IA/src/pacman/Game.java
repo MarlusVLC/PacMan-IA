@@ -270,7 +270,8 @@ public class Game {
       throw new RuntimeException("Can't project a final state.");
     Location newPacManLocation = getNextLocation(s.getPacManLocation(), pacManMove);
     if (!isValidLocation(newPacManLocation))
-      throw new RuntimeException("Invalid move.");
+//      throw new RuntimeException("Invalid move.");
+      return null; //EDITADO POR MARLUS
     LocationSet newDots = new LocationSet(s.getDotLocations());
     if (newDots.contains(newPacManLocation))
       newDots.remove(newPacManLocation); // eat the dot at that location
@@ -392,6 +393,9 @@ public class Game {
   public static List<State> projectPacManLocation(State s, Move pacManMove, int maxLength) {
     List<State> projectedStates = new ArrayList<State>();
     State curr = getNextState(s, pacManMove);
+    if (curr == null){
+      return null;  // EDITADO POR MARLUS
+    }
     projectedStates.add(curr);
     List<Move> legalMoves = Game.getLegalPacManMoves(curr);
     legalMoves.remove(pacManMove.getOpposite());
@@ -736,7 +740,7 @@ public class Game {
       // only give him
 //      PlayerThread t = new PlayerThread(this, pacMan);
 //      t.start();
-      Move lastPacManMove = pacManMove;
+      lastPacManMove = pacManMove;
       pacManMove = null;
       this.setPacManMove(pacMan.chooseMove(this));
       long startTime = System.currentTimeMillis();

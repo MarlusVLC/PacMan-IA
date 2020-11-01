@@ -22,15 +22,25 @@ public class WammyChase implements GhostState<Wammy> {
     }
     //SINGLETON end
 
+    boolean hasReturned = false; //Variável que diz se o o fantasma fez o movimento de retorno
+
+
+
+
 
     @Override
     public void enter(Wammy wammy) {
-
+        hasReturned = false;
     }
 
     @Override
     public Move execute(Wammy wammy, Game game, int ghostIndex) {
+
         System.out.println("wammy is chasing");
+
+        if (wammy.canReturn()) { return wammy.goBackwards(); }
+
+
         //Executa o mesmo padrão de perseguição do Blinky.
         //Setando o PacMan como alvo
         State s = game.getCurrentState();
@@ -39,7 +49,6 @@ public class WammyChase implements GhostState<Wammy> {
 
     @Override
     public void exit(Wammy wammy) {
-
     }
 
     @Override

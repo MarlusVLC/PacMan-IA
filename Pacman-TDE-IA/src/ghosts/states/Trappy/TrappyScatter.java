@@ -7,16 +7,16 @@ import pacman.Game;
 import pacman.Move;
 import pacman.State;
 
-public class TrappyChase implements GhostState<Trappy> {
+public class TrappyScatter implements GhostState<Trappy> {
 
     //SINGLETON begin
-    private static TrappyChase INSTANCE = null;
+    private static TrappyScatter INSTANCE = null;
 
-    private TrappyChase(){}
+    private TrappyScatter(){}
 
-    public static TrappyChase getInstance(){
+    public static TrappyScatter getInstance(){
         if (INSTANCE == null){
-            INSTANCE = new TrappyChase();
+            INSTANCE = new TrappyScatter();
         }
         return INSTANCE;
     }
@@ -30,17 +30,18 @@ public class TrappyChase implements GhostState<Trappy> {
 
     @Override
     public Move execute(Trappy trappy, Game game, int ghostIndex) {
-        System.out.println("Trappy's chasin");
+        System.out.println("Trappy's runnin");
+
 
         if (trappy.canReturn()) { return trappy.goBackwards(); }
 
 
-        if (trappy.canChangeToScatter(game)) {
-            trappy.getStateMachine().changeState(TrappyScatter.getInstance());
+        if (trappy.canChangeToChase(game)) {
+            trappy.getStateMachine().changeState(TrappyChase.getInstance());
         }
 
         State s = game.getCurrentState();
-        return trappy.chooseMove(game, ghostIndex, trappy.getProjectedTarget(game.getCurrentState(), game));
+        return trappy.chooseMove(game, ghostIndex, trappy.CrossTheBoard());
     }
 
     @Override

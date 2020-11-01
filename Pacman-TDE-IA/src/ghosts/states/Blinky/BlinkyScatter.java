@@ -32,12 +32,14 @@ public class BlinkyScatter implements GhostState<Blinky> {
     //Referencia ao personagem, à classe da instância atual de jogo e a posição
     // do fantasma para acessar o array de fantasmas dentro da classe game
     public Move execute(Blinky blinky, Game game, int ghostIndex) {
-       if (blinky.canChangeState(game)) {
+
+        if (blinky.canReturn()) { return blinky.goBackwards(); }
+
+        if (blinky.canChangeToChase(game)) {
            blinky.getStateMachine().changeState(BlinkyChase.getInstance());
-           return blinky.goBackwards();
        }
        //Se não estiver na hora. Blinky objetiva ir até o canto inferior esquerdo do mapa.
-        return blinky.chooseMove(game, ghostIndex, new Location(0,0));
+        return blinky.chooseMove(game, ghostIndex, new Location(game.xDim-1,0));
     }
 
     @Override

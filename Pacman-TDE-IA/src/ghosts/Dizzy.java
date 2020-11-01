@@ -11,8 +11,9 @@ import java.util.List;
 public class Dizzy extends GhostPlayer {
 
     private static int transRadius = 3;
-    private static int dotsEaten = 0;
-    private static int dotsLimit = 10;
+//    private static int dotsEaten = 0;
+//    private static int dotsLimit = 10;
+    private static int pointsLimit = 2;
 
     private Location target = null;
 //    private Move lastMove = null;
@@ -69,29 +70,29 @@ public class Dizzy extends GhostPlayer {
         return false;
     }
 
-    public void dotCounter(Game game) {
-        //Confirma se o estado atual é Chase. Se for, começa a contar
-        if (stateMachine.getCurrentState() == DizzyScatter.getInstance()) {
-            //Confere se a quantidade de pontos coletados é igual ao limite.
-            //Se for, adiciona um ponto ao contador.
-            State s = game.getCurrentState();
+//    public void dotCounter(Game game) {
+//        //Confirma se o estado atual é Chase. Se for, começa a contar
+//        if (stateMachine.getCurrentState() == DizzyScatter.getInstance()) {
+//            //Confere se a quantidade de pontos coletados é igual ao limite.
+//            //Se for, adiciona um ponto ao contador.
+//            State s = game.getCurrentState();
 //            System.out.println(s.getDotLocations().contains(s.getPacManLocation()));
 //            System.out.println(s.getDotLocations());
 //            System.out.println(s.getPacManLocation());
 //            if(game.eatDot(s.getDotLocations(), s.getPacManLocation())){
-            if (s.getDotLocations().contains(s.getPacManLocation())){
-                dotsEaten++;
+//            if (s.getDotLocations().contains(s.getPacManLocation())){
+//                dotsEaten++;
 //                System.out.println(dotsEaten);
-            }
-        }
-    }
+//            }
+//        }
+//    }
 
     public boolean canChangeToChase(Game game){
         //Checa se o contador alcançou o limite. Se o tiver, o fantasma pode
         //mudar de estado para Chase.
 //        if (dotsEaten >= dotsLimit){
-        if ((game.getPoints()%500)==0){
-            dotsEaten = 0;
+        if ((game.getPoints()%pointsLimit)==0){
+//            dotsEaten = 0;
             return true;
         }
         return false;
