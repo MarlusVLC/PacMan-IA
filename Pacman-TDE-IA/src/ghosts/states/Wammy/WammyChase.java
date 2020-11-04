@@ -30,7 +30,6 @@ public class WammyChase implements GhostState<Wammy> {
 
     @Override
     public void enter(Wammy wammy) {
-        hasReturned = false;
     }
 
     @Override

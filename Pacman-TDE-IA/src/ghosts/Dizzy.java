@@ -62,7 +62,7 @@ public class Dizzy extends GhostPlayer {
 
     //Define a condição de transição do estado Chase para Scatter  vice-versa
     public boolean canChangeToScatter(Game game, int ghostIndex){
-        //Checa a distância entre o PacMan  e  Dizzy. Se a distância for menor que 3, faz a transição
+        //Checa a distância entre o PacMan  e  Dizzy. Se a distância for menor que 4, faz a transição
         Location pacManLoc = game.getCurrentState().getPacManLocation();
         List<Location> allGhostLoc = game.getCurrentState().getGhostLocations();
         double dist = pacManLoc.manhattanDistance(pacManLoc, allGhostLoc.get(ghostIndex) );

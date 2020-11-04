@@ -57,26 +57,26 @@ public class Wammy extends GhostPlayer {
 
 
 
-    //Define a condição de transição do estado Chase para Scatter  vice-versa
-    public boolean canChangeToScatter(Game game, int ghostIndex){
-        //Checa a distância entre o PacMan  e  Dizzy. Se a distância for menor que 3, faz a transição
-        Location pacManLoc = game.getCurrentState().getPacManLocation();
-        List<Location> allGhostLoc = game.getCurrentState().getGhostLocations();
-        double dist = pacManLoc.manhattanDistance(pacManLoc, allGhostLoc.get(ghostIndex) );
-        if (dist < transRadius) return true;
-        return false;
-    }
-
-    public boolean canChangeToChase(Game game){
-        //Checa se o contador alcançou o limite. Se o tiver, o fantasma pode
-        //mudar de estado para Chase.
-//        if (dotsEaten >= dotsLimit){
-        if ((game.getPoints()%500)==0){
-//            dotsEaten = 0;
-            return true;
-        }
-        return false;
-    }
+//    //Define a condição de transição do estado Chase para Scatter  vice-versa
+//    public boolean canChangeToScatter(Game game, int ghostIndex){
+//        //Checa a distância entre o PacMan  e  Dizzy. Se a distância for menor que 3, faz a transição
+//        Location pacManLoc = game.getCurrentState().getPacManLocation();
+//        List<Location> allGhostLoc = game.getCurrentState().getGhostLocations();
+//        double dist = pacManLoc.manhattanDistance(pacManLoc, allGhostLoc.get(ghostIndex) );
+//        if (dist < transRadius) return true;
+//        return false;
+//    }
+//
+//    public boolean canChangeToChase(Game game){
+//        //Checa se o contador alcançou o limite. Se o tiver, o fantasma pode
+//        //mudar de estado para Chase.
+////        if (dotsEaten >= dotsLimit){
+//        if ((game.getPoints()%500)==0){
+////            dotsEaten = 0;
+//            return true;
+//        }
+//        return false;
+//    }
 
     public Location runFromPacMan(Game game){
         //O fantasma sempre vai pro quadrante oposto ao qual o PacMan está localizado.

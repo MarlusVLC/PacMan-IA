@@ -32,18 +32,18 @@ public class Blinky extends GhostPlayer {
 
     @Override
     public Move chooseMove(Game game, int ghostIndex, Location target) {
-        State s = game.getCurrentState();
+                    State s = game.getCurrentState();
 //        Location target = s.getPacManLocation();
-        Location oldLoc = s.getGhostLocations().get(ghostIndex);
-        List<Move> legalMoves = game.getLegalGhostMoves(ghostIndex);
-        Move bestMove = null;
-        double minDistance = Double.POSITIVE_INFINITY;
-        for (Move m : legalMoves) {
-            Location newLoc = Game.getNextLocation(oldLoc, m);
-            double distance = Location.euclideanDistance(newLoc, target);
-            if (distance<minDistance) {
-                minDistance = distance;
-                bestMove = m;
+                    Location oldLoc = s.getGhostLocations().get(ghostIndex);
+                    List<Move> legalMoves = game.getLegalGhostMoves(ghostIndex);
+                    Move bestMove = null;
+                    double minDistance = Double.POSITIVE_INFINITY;
+                    for (Move m : legalMoves) {
+                        Location newLoc = Game.getNextLocation(oldLoc, m);
+                        double distance = Location.euclideanDistance(newLoc, target);
+                        if (distance<minDistance) {
+                            minDistance = distance;
+                            bestMove = m;
             }
         }
         if (bestMove==null) throw new RuntimeException("Legal moves for ghost " +ghostIndex+": " + legalMoves);
