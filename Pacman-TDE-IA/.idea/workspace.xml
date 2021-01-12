@@ -1,145 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/ghosts/states/Blinky/BlinkyChase.java" line="22" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="7edd4dfc-48b0-4c43-a957-b5b9cbc55e5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Aula 1/Pacman/.idea/Pacman.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula 1/Pacman/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula 1/Pacman/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula 1/Pacman/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula 1/Pacman/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula 1/Pacman/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula 11/Jogo_DA_velha/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula 11/Jogo_DA_velha/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula 11/Jogo_DA_velha/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula 11/Jogo_DA_velha/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula 11/Jogo_DA_velha/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula 11/Jogo_DA_velha/Jogo_DA_velha.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Aula 11/Jogo_DA_velha/src/MarlusViniciusPlayer/MarlusPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 2/Pcman/Pacman/Pacman.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 2/Pcman/Pcman.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 3/MininBob-StatePatternSilla/MininBob-StatePatternSilla.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Aula 4/FarmerBobDemo - CodeSwap/FarmerBobDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exemplos/Graphs-master/Graphs-master/.idea/Graphs-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Exemplos/Graphs-master/Graphs-master/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Westworld - Tambosi/.idea/Westworld - Tambosi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Westworld - Tambosi/Westworld/Westworld.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src - Demo - Westworld/.idea/src - Demo - Westworld.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula 11/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula 11/Jogo_DA_velha/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula 11/Jogo_DA_velha/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula 11/Jogo_DA_velha/src/MarlusViniciusPlayer/MarlusPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula 11/Jogo_DA_velha/src/MarlusViniciusPlayer/MarlusPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../MininBob-StatePattern" beforeDir="false" afterPath="$PROJECT_DIR$/../../MininBob-StatePattern" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Estados_dos_novos_fantasmas.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../Estados_dos_novos_fantasmas.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pacman-TDE-IA/ghosts/Blinky.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pacman-TDE-IA/ghosts/Blinky.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pacman-TDE-IA/ghosts/Dizzy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pacman-TDE-IA/ghosts/Dizzy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pacman-TDE-IA/ghosts/Trappy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pacman-TDE-IA/ghosts/Trappy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pacman-TDE-IA/ghosts/Wammy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pacman-TDE-IA/ghosts/Wammy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pacman-TDE-IA/ghosts/states/Dizzy/DizzyScatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pacman-TDE-IA/ghosts/states/Dizzy/DizzyScatter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pacman-TDE-IA/ghosts/states/Wammy/WammyChase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pacman-TDE-IA/ghosts/states/Wammy/WammyChase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pacman-TDE-IA/ghosts/states/Wammy/WammyScatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pacman-TDE-IA/ghosts/states/Wammy/WammyScatter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ghosts/Blinky.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ghosts/Blinky.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ghosts/Dizzy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ghosts/Dizzy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ghosts/Wammy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ghosts/Wammy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ghosts/states/Wammy/WammyChase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ghosts/states/Wammy/WammyChase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/ghosts/BasicGhostPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/ghosts/Blinky.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/ghosts/Dizzy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/ghosts/RandomGhostPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/ghosts/StalkingGhostPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/ghosts/Trappy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/ghosts/package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/ghosts/states/Blinky/BlinkyChase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/ghosts/states/Blinky/BlinkyScatter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/ghosts/states/Dizzy/DizzyChase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/ghosts/states/Dizzy/DizzyScatter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/ghosts/states/GhostState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/ghosts/states/StateMachine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/ghosts/states/Trappy/TrappyChase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pacman/Display.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pacman/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pacman/GhostManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pacman/GhostPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pacman/KeyboardPacManPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pacman/Location.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pacman/LocationSet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pacman/Move.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pacman/PacManGUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pacman/PacManGUIGameBoard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pacman/PacManGUILivesBoard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pacman/PacManGUIScoreBoard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pacman/PacManPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pacman/State.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pacman/StateEvaluator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pacman/TestStuff.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pacman/TextDisplay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pacman/package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/player/DFSPacManPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/player/SimplePacManPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/player/package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/util/Counter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/util/Pair.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/util/PriorityQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/util/Utils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/util/package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pacman-TDE-IA/META-INF/Pacman-TDE-IA.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pacman-TDE-IA/pacman/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pacman-TDE-IA/pacman/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pacman/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pacman/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pacman/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDE_02/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TDE_02/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDE_02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TDE_02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDE_02/src/pacman/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TDE_02/src/pacman/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TDE_02/src/player/SimplePacManPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TDE_02/src/player/SimplePacManPlayer.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ghosts/Dizzy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="891">
-              <caret line="115" column="32" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ghosts/states/Wammy/WammyGlobalState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pacman/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="788" column="3" lean-forward="true" selection-start-line="788" selection-start-column="3" selection-end-line="788" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ghosts/Trappy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pacman/GhostPlayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="919">
-              <caret line="104" column="22" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
-              <folding>
-                <element signature="e#1718#1719#0" expanded="true" />
-                <element signature="e#1745#1746#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -157,157 +46,26 @@
       <find>update</find>
       <find>get</find>
       <find>getProj</find>
+      <find>Marlus</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/ghosts/Normy.java" />
-        <option value="$PROJECT_DIR$/src/pacman/State.java" />
-        <option value="$PROJECT_DIR$/src/pacman/GhostManager.java" />
-        <option value="$PROJECT_DIR$/src/TestStuff.java" />
-        <option value="$PROJECT_DIR$/src/ghosts/states/BlinkyChase.java" />
-        <option value="$PROJECT_DIR$/src/ghosts/states/BlinkyScatter.java" />
-        <option value="$PROJECT_DIR$/src/ghosts/states/Trappy/BlinkyScatter.java" />
-        <option value="$PROJECT_DIR$/src/player/SimplePacManPlayer.java" />
-        <option value="$PROJECT_DIR$/src/ghosts/Communication/Message.java" />
-        <option value="$PROJECT_DIR$/src/ghosts/states/GhostState.java" />
-        <option value="$PROJECT_DIR$/src/ghosts/states/StateMachine.java" />
-        <option value="$PROJECT_DIR$/src/ghosts/states/Wammy/DizzyScatter.java" />
-        <option value="$PROJECT_DIR$/src/ghosts/RandomGhostPlayer.java" />
-        <option value="$PROJECT_DIR$/src/ghosts/BasicGhostPlayer.java" />
-        <option value="$PROJECT_DIR$/src/ghosts/StalkingGhostPlayer.java" />
-        <option value="$PROJECT_DIR$/src/ghosts/Communication/MessageDispatcher.java" />
-        <option value="$PROJECT_DIR$/src/ghosts/states/Wammy/WammyGlobalState.java" />
-        <option value="$PROJECT_DIR$/src/ghosts/states/Blinky/BlinkyScatter.java" />
-        <option value="$PROJECT_DIR$/src/ghosts/states/Trappy/TrappyScatter.java" />
-        <option value="$PROJECT_DIR$/src/ghosts/states/Trappy/TrappyChase.java" />
-        <option value="$PROJECT_DIR$/src/ghosts/states/Dizzy/DizzyChase.java" />
-        <option value="$PROJECT_DIR$/src/ghosts/states/Dizzy/DizzyScatter.java" />
-        <option value="$PROJECT_DIR$/src/ghosts/states/Wammy/WammyScatter.java" />
-        <option value="$PROJECT_DIR$/src/ghosts/Trappy.java" />
-        <option value="$PROJECT_DIR$/src/ghosts/Wammy.java" />
-        <option value="$PROJECT_DIR$/src/ghosts/states/Wammy/WammyChase.java" />
-        <option value="$PROJECT_DIR$/src/pacman/GhostPlayer.java" />
-        <option value="$PROJECT_DIR$/src/ghosts/Blinky.java" />
-        <option value="$PROJECT_DIR$/src/ghosts/states/Blinky/BlinkyChase.java" />
-        <option value="$PROJECT_DIR$/src/ghosts/Dizzy.java" />
-        <option value="$PROJECT_DIR$/src/pacman/Game.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="330" />
-    <option name="y" value="31" />
-    <option name="width" value="1552" />
-    <option name="height" value="980" />
-  </component>
+  <component name="ProjectId" id="1l9jv7LaPDWdy5DWkyErClvge9i" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Pacman-TDE-IA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pacman-TDE-IA" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pacman-TDE-IA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pacman-TDE-IA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pacman-TDE-IA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pacman-TDE-IA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ghosts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pacman-TDE-IA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pacman-TDE-IA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ghosts" type="462c0819:PsiDirectoryNode" />
-              <item name="Communication" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pacman-TDE-IA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pacman-TDE-IA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ghosts" type="462c0819:PsiDirectoryNode" />
-              <item name="states" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pacman-TDE-IA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pacman-TDE-IA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ghosts" type="462c0819:PsiDirectoryNode" />
-              <item name="states" type="462c0819:PsiDirectoryNode" />
-              <item name="Blinky" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pacman-TDE-IA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pacman-TDE-IA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ghosts" type="462c0819:PsiDirectoryNode" />
-              <item name="states" type="462c0819:PsiDirectoryNode" />
-              <item name="Dizzy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pacman-TDE-IA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pacman-TDE-IA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ghosts" type="462c0819:PsiDirectoryNode" />
-              <item name="states" type="462c0819:PsiDirectoryNode" />
-              <item name="Trappy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pacman-TDE-IA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pacman-TDE-IA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ghosts" type="462c0819:PsiDirectoryNode" />
-              <item name="states" type="462c0819:PsiDirectoryNode" />
-              <item name="Wammy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pacman-TDE-IA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pacman-TDE-IA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pacman" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pacman-TDE-IA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pacman-TDE-IA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="player" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pacman-TDE-IA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pacman-TDE-IA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604499987688" />
-    <property name="full.screen.before.presentation.mode" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605238127794" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MininBob-StatePattern" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -324,23 +82,11 @@
       <recent name="E:\Jogos Digitais\5o Periodo (2020-2)\Inteligência Artificial e Ilusão de Inteligência para Jogos\PacMan -TDE_IA\Pacman-TDE-IA\src\ghosts\states\Trappy" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pacman.Game" />
       <module name="Pacman-TDE-IA" />
-      <option name="PROGRAM_PARAMETERS" value="-display gui -ghosts ghosts.Blinky,ghosts.Trappy,ghosts.Dizzy,ghosts.Wammy" />
+      <option name="PROGRAM_PARAMETERS" value="-display gui -ghosts ghosts.Blinky,ghosts.Trappy,ghosts.Dizzy,ghosts.Wammy " />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pacman.*" />
@@ -357,6 +103,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -370,482 +117,31 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="318" y="-8" width="1610" height="1096" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3083871" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32885087" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49935484" visible="true" weight="0.32883817" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50064516" side_tool="true" weight="0.32992327" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32539684" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="PlantUML" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25520834" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32885087" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49935484" weight="0.3153527" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50064516" side_tool="true" weight="0.32992327" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32592592" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="PlantUML" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout-to-restore>
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Projeto certo. Configurado para IntelliJ&quot;" />
     <option name="LAST_COMMIT_MESSAGE" value="&quot;Projeto certo. Configurado para IntelliJ&quot;" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ghosts/states.java" />
-    <entry file="file://$PROJECT_DIR$/src/pacman/TestStuff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#87#88#0" expanded="true" />
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javadoc/pacman/Game.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="261" column="75" selection-start-line="261" selection-start-column="75" selection-end-line="261" selection-end-column="75" />
-          <folding>
-            <element signature="e#12694#12700#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/player/DFSPacManPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pacman/Display.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pacman/PacManGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pacman/package.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pacman/TextDisplay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pacman/StateEvaluator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/player/SimplePacManPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/awt/Window.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="3915" column="21" lean-forward="true" selection-start-line="3915" selection-start-column="21" selection-end-line="3915" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/Counter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pacman/PacManGUIGameBoard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pacman/PacManGUIScoreBoard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/javax/swing/JComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15300">
-          <caret line="972" column="38" selection-start-line="972" selection-start-column="38" selection-end-line="972" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pacman/Location.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pacman/LocationSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/Override.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pacman/KeyboardPacManPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pacman/Move.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pacman/PacManPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pacman/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ghosts/package.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ghosts/Default.java" />
-    <entry file="file://$PROJECT_DIR$/src/ghosts/DefaultGhosts/BasicGhostPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ghosts/DefaultGhosts/RandomGhostPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ghosts/DefaultGhosts/StalkingGhostPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pacman/GhostManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ghosts/Blinky.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1353">
-          <caret line="69" column="13" lean-forward="true" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ghosts/states/GhostState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ghosts/states/StateMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="77" column="24" lean-forward="true" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ghosts/states/Blinky/BlinkyChase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ghosts/states/Blinky/BlinkyScatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="41" column="78" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ghosts/states/Dizzy/DizzyChase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="32" column="113" selection-start-line="32" selection-start-column="113" selection-end-line="32" selection-end-column="113" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ghosts/states/Dizzy/DizzyScatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ghosts/Communication/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="3" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ghosts/Communication/MessageDispatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="29" column="9" lean-forward="true" selection-start-column="3" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ghosts/Wammy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="95" column="38" lean-forward="true" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ghosts/states/Wammy/WammyChase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="45" column="58" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ghosts/states/Wammy/WammyScatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="40" column="64" lean-forward="true" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ghosts/states/Trappy/TrappyChase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="42" column="70" lean-forward="true" selection-start-line="42" selection-start-column="70" selection-end-line="42" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ghosts/states/Trappy/TrappyScatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pacman/GhostPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="919">
-          <caret line="104" column="22" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
-          <folding>
-            <element signature="e#1718#1719#0" expanded="true" />
-            <element signature="e#1745#1746#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ghosts/Dizzy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="115" column="32" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ghosts/states/Wammy/WammyGlobalState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pacman/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="788" column="3" lean-forward="true" selection-start-line="788" selection-start-column="3" selection-end-line="788" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ghosts/Trappy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="656" y="204" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607369982815">
+      <screen x="326" y="0" width="1594" height="1080" />
+    </state>
+    <state x="656" y="204" key="#com.intellij.execution.impl.EditConfigurationsDialog/326.0.1594.1080@326.0.1594.1080" timestamp="1607369982815" />
+    <state width="1505" height="294" key="GridCell.Tab.0.bottom" timestamp="1607019621021">
+      <screen x="326" y="0" width="1594" height="1080" />
+    </state>
+    <state width="1505" height="294" key="GridCell.Tab.0.bottom/326.0.1594.1080@326.0.1594.1080" timestamp="1607019621021" />
+    <state width="1505" height="294" key="GridCell.Tab.0.center" timestamp="1607019621021">
+      <screen x="326" y="0" width="1594" height="1080" />
+    </state>
+    <state width="1505" height="294" key="GridCell.Tab.0.center/326.0.1594.1080@326.0.1594.1080" timestamp="1607019621021" />
+    <state width="1505" height="294" key="GridCell.Tab.0.left" timestamp="1607019621021">
+      <screen x="326" y="0" width="1594" height="1080" />
+    </state>
+    <state width="1505" height="294" key="GridCell.Tab.0.left/326.0.1594.1080@326.0.1594.1080" timestamp="1607019621021" />
+    <state width="1505" height="294" key="GridCell.Tab.0.right" timestamp="1607019621021">
+      <screen x="326" y="0" width="1594" height="1080" />
+    </state>
+    <state width="1505" height="294" key="GridCell.Tab.0.right/326.0.1594.1080@326.0.1594.1080" timestamp="1607019621021" />
   </component>
   <component name="masterDetails">
     <states>

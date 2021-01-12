@@ -16,7 +16,7 @@ public enum Move {
     if (this==DOWN) return UP;
     if (this==LEFT) return RIGHT;
     if (this==RIGHT) return LEFT;
-    throw new RuntimeException();
+      throw new RuntimeException();
   }
   private Move(String name) {
     this.name = name;
