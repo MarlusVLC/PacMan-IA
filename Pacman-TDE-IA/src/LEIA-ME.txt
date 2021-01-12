@@ -1,0 +1,4 @@
+Projeto desenvolvido à partir de um sistema base publicado pelo professor.
+Os pacotes modificado são: 
+* ghosts <Com Máquina Finita de Estado>
+* player_2020_1_Equipe01 <Com algoritmos de busca> 
